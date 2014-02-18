@@ -8,6 +8,7 @@ It will pull the hostname out from haproxy log and use that as the
 graphite schema.
 
 For example, this line will send stats to graphite for schema www.mysite.com
+
 Feb 18 12:40:45 10.10.106.143 haproxy[7030]: 166.147.120.168:15305 [18/Feb/2014:12:40:45.627] creative_frontend_crlb03 creative_backend_crlb03/cr2_a 1/0/0/1/33 302 147 - - ---- 66/66/19/0/0 0/0 {www.mysite.com|Mozilla/5.0 (Linux; U; Android 2.3.6; en-us; SAMSU} "GET /creative?param=value HTTP/1.1"
 
 It will report on:
